@@ -1,0 +1,1 @@
+API that returns file size.
