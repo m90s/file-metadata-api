@@ -6,8 +6,6 @@ const app = express();
 
 
 app.post('/fileupload', upload.single('filetoupload'), function(req, res){
-  //const fileSize = req.files[size];
-  //res.json({'size': fileSize});
   res.json({'size': req.file.size});
 })
 
